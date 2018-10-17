@@ -9,7 +9,11 @@ class DBHelper {
    */
   static get DATABASE_URL() {
     const port = 8000 // Change this to your server port
+    /*  ***************** Uncomment when running on local server **************
     return `http://localhost:${port}/data/restaurants.json`;
+    */
+    // Below line is just to run this project on GithubIo
+    return `https://himanshubeniwal.github.io/Restaurant-Review-App/data/restaurants.json`;
   }
 
   /**
