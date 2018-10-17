@@ -67,9 +67,10 @@ nav h1 {
 nav h1 a {
   color: #ccc;
   font-family: Trebuchet MS;
-
+  word-spacing: 20px;
+  letter-spacing: 20px;
   font-weight: 300;
-  letter-spacing: 10px;
+  font-size: 28px;
   text-transform: uppercase;
 }
 #breadcrumb {
@@ -334,5 +335,13 @@ nav h1 a {
     width:100%;
     position: static;
     bottom: 0;
+  }
+  nav h1 a {
+  color: #ccc;
+  font-family: Trebuchet MS;
+  word-spacing: 20px;
+  letter-spacing: 12px;
+  font-size: 18px;
+  text-transform: uppercase;
   }
 }
