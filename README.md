@@ -1,5 +1,5 @@
 # Restaurant Reviews Apps - Stage 1
-
+Have a look [here](https://himanshubeniwal.github.io/Restaurant-Review-App/)
 ## Project Overview: 
 
 * For the **_Restaurant Reviews_** projects, you will incrementally convert a static webpage to a mobile-ready web application. In **Stage One**, you will take a static design that lacks accessibility and convert the design to be responsive on different sized displays and accessible for screen reader use. You will also add a service worker to begin the process of creating a seamless offline experience for your users.<br />
@@ -21,6 +21,11 @@ In a terminal, check the version of Python you have: `python -V`. If you have Py
 * **/index.html** : Contains the code for our main index web page. 
 * **/restaurant.html** : Code for restaurant details web page.
 * **/ServiceWorker.js** : Code for making the offline use more easy. 
+
+## Important, while running locally:
+* Proceed to **/js/dbhelper.js**: <br /> 
+Uncomment line 13, When running on local system and comment line 16. 
+(This is added later, to add online functionality of the project)
 
 ### Leaflet.js and Mapbox:
 
